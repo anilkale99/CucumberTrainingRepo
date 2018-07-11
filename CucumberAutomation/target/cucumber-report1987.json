@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8708350729,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "validate Registration Scenario2",
+        "description": "",
+        "id": "registration-page-multi-scenario;validate-registration-scenario2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8179679023,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "MultiScenarioStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129897988,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5087827656,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5344750,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.syne.basic.multiscenariosinglefile.MultiScenarioStepDefs.check_username_is_present_in_textbox(MultiScenarioStepDefs.java:47)\r\n\tat ✽.Then check username is present in textbox(MultiScenario.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "MultiScenarioStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8027408771,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "validate Registration Scenario3",
+        "description": "",
+        "id": "registration-page-multi-scenario;validate-registration-scenario3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8152915874,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "MultiScenarioStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151151176,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5090755135,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454252,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.syne.basic.multiscenariosinglefile.MultiScenarioStepDefs.check_username_is_present_in_textbox(MultiScenarioStepDefs.java:47)\r\n\tat ✽.Then check username is present in textbox(MultiScenario.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "MultiScenarioStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration page multi scenario",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-multi-scenario",
+    "keyword": "Feature",
+    "uri": "MultiScenario.feature"
+  }
+]

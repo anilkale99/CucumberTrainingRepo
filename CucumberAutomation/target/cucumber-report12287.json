@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5657461213,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.getDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "validate Registration Scenario2",
+        "description": "",
+        "id": "registration-page-with-sharing-data;validate-registration-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 91380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10039300120,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "OneFolderStepDefs1.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121420816,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "OneFolderStepDefs1.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7091955990,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "OneFolderStepDefs2.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660465172,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "OneFolderStepDefs2.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5036221666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.getDriver()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "validate Registration Scenario3",
+        "description": "",
+        "id": "registration-page-with-sharing-data;validate-registration-scenario3",
+        "after": [
+          {
+            "result": {
+              "duration": 41718,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9719424954,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "OneFolderStepDefs1.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153600894,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "OneFolderStepDefs1.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7086484102,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "OneFolderStepDefs2.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 665367257,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "OneFolderStepDefs2.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration page with sharing data",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-with-sharing-data",
+    "keyword": "Feature",
+    "uri": "SharingData.feature"
+  }
+]
