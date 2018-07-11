@@ -4,6 +4,13 @@
   <artifactId>CucumberAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+<repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>not https repo</name>
+      <url>http://repo.maven.apache.org/</url>
+    </repository>
+</repositories>
 
 <dependencies>
   
@@ -54,6 +61,9 @@
 		</dependency>
   
   </dependencies>
+  
+  
+  
   
 <build>
     <plugins>
